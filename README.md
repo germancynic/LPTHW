@@ -1,2 +1,2 @@
 # LPTHW
-READ ME
+Leuphana University Lüneburg, Major Digital Media, Technological Basics II
