@@ -1,0 +1,67 @@
+DISCLAIMER: Ich habe dieses Dokument auch auf deutsch verfasst, weil es mir
+kurz und prägnant beim Codieren von python 2.7 helfen soll. In meiner Muttersprache
+fällt mir das schnelle Aufnehmen und Verarbeiten von Information leichter zumal ich
+meinen Indiolekt verwende.
+
++ - plus -addieren (mathematisch)
+- - minus -subtrahieren (mathematisch)
+/ - slash -dividieren (mathematisch)
+* - asterisk - multiplizieren (mathematisch)
+% - percent - dividieren mit Angabe der Restmenge (mathematisch)
++ - plus -addieren (mathematisch)
+< - weniger als - Vergleich zweier Zahlen (mathematisch)
+> - größer als - Vergleich zweier Zahlen (mathematisch)
+<= - weniger gleich - Vergleich zweier Zahlen unter Einbezug des Eigenwerts (mathematisch)
+>= - größer gleich - Vergleich zweier Zahlen unter Einbezug des Eigenwerts (mathematisch)
+
+Integer - i=1 - Ganzzahl
+Float - f=0.1 - Gleitkommazahl
+String - s="Hallo" - Zeichenkette
+Liste - l=[1, 2, 3] - Veränderbare Liste mit Reihenfolge
+Tupel - t=(1, 2, 3) - Unveränderbare Liste mit Reihenfolge
+Dictionary - d={1: "eins", 2: "zwei", 3: "drei"} - Assoziatives Array
+
+\\ - backslash (\)
+\’ - single-quote (')
+\” - double-qute (")
+\a - ASCII bell (BEL)
+\b - ASCII backspace (BS)
+\f - ASCII formfeed (FF)
+\n - ASCII linefeed (LF)
+\N{name} - character named name in the Unicode database (Unicode only)
+\r - carriage return (CR)
+\t - Tab
+\uxxxx - character with 16-bit hex value XXXX (Unicode)
+\Uxxxxxxxx - character with 32-bit hex value XXXX XXXX (Unicode)
+\v - ASCII vertical tab (VT)
+\ooo - character with octal value ooo
+\xhh - character hex value hh
+\t* - table numbering
+
+"" - doppelt - etwas als Text markieren
+'' - einfach - was ist der Unterschied?
+""" - dreimal doppelt - Text über mehrere Zeilen darstellen
+
+% - modulo - eine Variable aufgreifen und in Text importieren
+%s - modulo - other formatter
+%d - modulo - other formatter
+%r - modulo - other formatter
+
+, - Comma - Inhalte werden in einer Zeile dargestellt, aber durch Komma getrennt. Lesart in Shell ändert sich
+# - octothorpe - Kommentar einfügen ohne das es ausgelesen wird
+= - Variable - eine Zahl wird mit Buchstaben verknüpft
+print - Druck -Anweisung den Text in Gänsefüsschen in Shell darzustellen
+raw_input() - User Input aus Shell wird abgefragt
+argv - argument variable - variable holding data, can be unpacked in shell
+prompt - what does this do in particular?
+import - importing argument variables
+len(indata) - shows the amount of bits for example letters in txt
+def - function - defining pieces of code
+return - Anweisung - kehre von Funktion zurück und benutze Rückgabewert
+
+open - opens a specific format (e.g. txt) and file name
+read - reads the (txt) files content. Can be assigned to a variable and printed.
+close - cloeses specific file
+readline - like read but jsut one particular line
+truncate - empties files content
+write() - writes text into the file
