@@ -1,0 +1,39 @@
+and			Logical and.						True and False == False
+as 			Part of the with-as statement		with X as Y: pass
+assert		Ensure something is true			assert False, "Error!"
+break		Stop this loop right now			while True: break
+class		Define a class.						class Person(object)
+continue	Don't process more loop, do again	while True: continue
+def			Define as function					def X(): pass
+del			Delete from dictionary				del X[Y]
+elif		Else if condition					if: X; elif: Y; else: J
+else		Else condition						if: X; elif: Y; else: J
+except		if an exception happends, do this	except ValueError, e: print e
+exec		Run strinng as Python				exec 'print "hello"'
+finally		Exceptions or not, finally do this	finally: pass
+for			Loop over a collection of things	for X in Y: pass
+from		Importing specific parts of module	form x import Y
+global		Declare you want global variable	global X
+if			If condition						if: X; elif: Y; else: J
+import		Import module into another			import os
+in			Part of for-loops. Test X in Y		for X in Y: pass also 1 in [1] == True	
+is			Like == to test equality			1 is 1 == True
+lambda		Create a short anonymous function	s = lamda y: y ** y; s(3)
+not			Logical not							False
+or			Logical or							True or False == False
+pass		This block is empty					def empty(): pass
+print		Print this string					print 'this string'
+raise		Raise an exception when wrong		raise ValueError ("No")
+return		Exit function with return valve		def X(): return Y
+try			Try block, if exception, go except	try: pass
+while		While loop							while x: pass
+with		with an expression as variable do	with X as Y: pass
+yield		Pause here and return to caller		def X(): yield Y; X().next()
+
+Data types -> p. 155
+
+String escape sequences -> p. 156
+
+String formats -> p. 156
+
+Operators -> p. 157
